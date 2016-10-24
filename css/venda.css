@@ -1,0 +1,53 @@
+.conteudo{
+	columns: 3;
+}
+
+
+
+.template {
+  display: none;
+}
+
+
+.image {
+  margin-top: -10px;
+}
+
+.image img {
+  display: block;
+  min-height: 197px;
+  border-radius: 3px;
+}
+
+.imageContainer {
+  margin-top: 50px;
+}
+
+.attribution {
+  position: relative;
+  top: -40;
+  background-color: #000;
+  padding: 10px 10px 10px 10px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.8);
+  float: right !important;
+}
+
+@media (min-width: 768px) and (max-width: 995px) {
+  .attribution {
+    right: 16.66666667%;
+  }
+}
+
+.attribution a {
+  color: #fff !important;
+}
+
+.attribution a:hover {
+  text-decoration: none;
+  color: #999898 !important;
+}
+
+.attribution .id {
+  float: right;
+}
